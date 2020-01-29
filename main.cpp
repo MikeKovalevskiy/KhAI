@@ -1,13 +1,13 @@
 #include <QApplication>
 #include <QPushButton>
+#include <QLabel>
  
 int main(int argc, char *argv[ ]) 
 {
     QApplication app(argc, argv);
  
-    QPushButton button("Hello, World!");
-    button.resize(200, 60);
-    button.show();
+    QLabel *label = new QLabel("<h2>Hello, World!</h2>");
+    label->show();
  
     return app.exec();
 }
