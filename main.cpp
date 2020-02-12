@@ -6,6 +6,8 @@ int main(int argc, char *argv[ ])
 {
     QApplication app(argc, argv);
  	
+    int a = 5;
+    
 	//how to make conflict?!
     QLabel *label = new QLabel("<h2 style='color: green'>Hello, World! Life is great!</h2>");
     label->show();
